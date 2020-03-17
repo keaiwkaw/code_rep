@@ -1,0 +1,286 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+   width: 100vw;
+   overflow-x: hidden; 
+   background-color: #F4F4F4;
+}
+header{
+    background-color: white;
+}
+#banner{
+    height: 105px;
+    width: 1533.5px;
+    background-image: url(1.png);
+}
+
+#nav1 li{
+    position: relative;
+    right: -300px;
+   font-size: 12px;
+   list-style: none;
+   display: inline-block;
+   margin: 10px;
+}
+#nav2 li{
+   list-style: none;
+   display: inline-block;
+  
+}
+
+#nav1 li a:link{
+   color: slategray;
+   list-style: none;
+   display: inline-block;
+   margin: 10px;
+}
+#nav1 li a:visited{
+    color: slategray;
+}
+#nav1 li a:hover{
+    color: red;
+    list-style: none;
+    display: inline-block;
+    margin: 10px;
+}
+
+#nav2 li a:link{
+    color: black;
+    list-style: none;
+    display: inline-block;
+    margin: 10px;
+}
+#nav2 li a:visited{
+    color: black;
+
+}
+#nav2 li a:hover{
+    color: red;
+    list-style: none;
+    display: inline-block;
+    margin: 10px;
+}
+
+#nav1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E3E4E5;
+    height: 35px;
+    width: 100vw;
+}
+a{
+    text-decoration: none;
+}
+
+
+section{
+    width: 100vw;
+    height: 170px;
+    display: flex;
+}
+#logo{
+    background-image: url(2.png);
+    width: 300px;
+    height: 150px;
+    position: relative;
+    left: 183px;
+}
+input{
+width: 400px;
+height: 30px;
+position: relative;
+top: 50px;
+left: 281px;
+border: red solid 4px;
+outline: none;
+}
+#font{
+    width: 50px;
+    height: 38px;
+    position: relative;
+    background-color: red;
+    left: 689px;
+    top: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#nav2{
+    position: relative;
+    top: 120px;
+    display: flex;
+    right: 270px;
+}
+#car{
+    width: 150px;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top:188px;
+    right: 320px;
+    border:  #E3E4E5 solid 0.5px;
+}
+p{
+    padding-top: 8px;
+    padding-left: 10px;
+    color: red;
+}
+#searchfooter{
+    background-image: url(3.png);
+    width: 230px;
+    height: 200px;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 100px;
+    top: 150px;
+    background-size: 230px auto;
+}
+#con3{
+    width: 300px;
+    position: relative;
+    right: -785px;
+    height: 400px;
+    background-color: white;
+    
+}
+#tx{
+    display: flex;
+    justify-content: center;
+}
+#tx0{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    left: -5px;
+    
+}
+#tx1{
+    position: relative;
+    left: 10px;
+}
+#tx0 img{
+    width: 55px;
+    height: 55px;
+    
+}
+.fl{
+    width: 90px;
+    height: 30px;
+    border-radius: 20px;
+     text-align: center;
+     text-justify: center;
+}
+.class1{
+    background-color: red;
+    margin: 15px;
+}
+.class2{
+    background-color: #363634;
+    margin: 15px;
+}
+#fl{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 15px;
+}
+.class3{
+    width: 35px;
+    float: left;
+}
+small p{
+    position: absolute;
+    right: 20px;
+    top: 125px;
+}
+small li{
+    position: relative;
+    right: -20px;
+}
+.class6 img{
+    width: 30px;
+    height: 30px;
+}
+.class6{
+    display: inline-block;
+    margin: 20px;
+    position: relative;
+    left: 40px;
+    top: -10px;
+}
+#tx1  p a:link{
+    color: black;
+    
+}
+#tx1  p a:visited{
+    color: black;
+    
+}
+#tx1 p a:hover{
+    color: red;
+    
+}
+#tx1   a:link{
+    color: black;
+    
+}
+#tx1   a:visited{
+    color: black;
+    
+}
+#tx1  a:hover{
+    color: red;
+    
+}
+small a:link{
+    color: black;
+    }
+    small a:visited{
+        color:black;
+        }
+small a:hover{
+color: red;
+}
+.class8:link{
+    color: black;
+}
+.class8:visited{
+    color: black;
+}
+.class8:hover{
+    color: red;
+}
+#idd1{
+    clear: both;
+    width: 275px;
+    height: 400px;
+    
+    overflow: hidden;
+    position: absolute;
+
+}
+#idd1 img{
+    width: 275px;
+    height: 400px;
+}
+#idd2{
+    clear: both;
+    width: 275px;
+    height: 400px;
+    
+    overflow: hidden;
+    position: absolute;
+    right: 0px;
+
+}
+#idd2 img{
+    width: 275px;
+    height: 400px;
+}

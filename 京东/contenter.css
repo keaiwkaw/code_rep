@@ -1,0 +1,154 @@
+#contener{
+    background-color: #F4F4F4;
+    display: flex;
+    position: relative;
+    height: 410px;
+   
+  
+}
+li{
+    list-style: none;
+    margin: 3px;
+    position: relative;
+   
+}
+#con1 li a:link{
+    list-style: none;
+    color: rgb(54, 48, 48);
+    left: 200px;
+    padding: 1px;
+}
+
+#con1 li a:visited{
+    list-style: none;
+    color: rgb(54, 48, 48);
+    left: 200px;
+    padding: 1px;
+}
+#con1 li a:hover{
+    color: red;
+}
+#con1{
+    padding: 1px;
+    background-color: white;
+    position: relative;
+    left: 280px;
+  
+  
+}
+
+
+
+#con2{
+    overflow: hidden;
+    width: 500px;
+    height: 400px;
+    position: absolute;
+    left: 31%;
+    
+    
+}
+#xiangkuang{
+    width: 1500px;
+    height: 400px;
+    overflow: hidden;
+    animation-name: first;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: steps(3,end);
+    position: relative;
+    
+}
+.cj{
+    width: 500px;
+    height: 400px;
+    overflow: hidden;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+@keyframes first{
+    to{
+        transform: translateX(-1500px);
+    }    
+}
+.cj img{
+    width: 500px;
+    height: 400px;
+}
+#footer{
+    border-top: black solid 0.5px;
+    text-align: center;
+    clear: both;
+}
+#footer li{
+    list-style: none;
+   display: inline-block;
+    margin: 3px;
+    color: darkgray;
+   
+}
+#footer li a:link{
+    color: darkgray;
+}
+#footer li a:hover{
+    color: red;
+}
+#footer li a:visited{
+    color: darkgray;
+}
+
+a{
+    text-decoration: none;
+}
+#footer ul{
+  margin: 0.5px;
+   
+}
+#shangp{
+    display: flex;
+    flex-wrap:wrap ;
+    background-color: #F4F4F4;
+    width: 1262px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.shangp1{
+    width: 250px;
+    height: 320px;
+   margin: 1px;
+   background-color: white;
+  
+}
+.tu{
+    width: 300px;
+    height: 200px;
+    text-align: center;
+}
+.jieshao{
+    width: 300px;
+    height: 100px;
+    text-align: center;
+}
+.tu img{
+    width: 150px;
+    height: 200px;
+}
+.jieshao p{
+    width: 200px;
+    color: #000;
+    
+    text-overflow:ellipsis;
+    
+}
+.jiage{
+    font-style: red;
+    font-size: 20px;
+    position: relative;
+    right: 50px;
+}
+.jiage a{
+    color: red;
+}
