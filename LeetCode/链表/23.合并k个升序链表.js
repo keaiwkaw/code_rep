@@ -36,6 +36,27 @@ var mergeKLists = function (lists) {
 分治法合并
 
 */
+var mergeKLists = function (lists) {
+  function mergeTwoLists(l1, l2) {
+    if (l1 == null || l2 == null) {
+      return l1 ? l1 : l2;
+    }
+    if (l1.val <= l2.val) {
+      l1.next = mergeTwoLists(l1.next, l2);
+      return l1;
+    } else {
+      l2.next = mergeTwoLists(l1, l2.next);
+      return l2;
+    }
+  }
+  function merge(low, hight) {
+    let mid = Math.floor((low + hight) / 2);
+    let l1 = merge(low, mid);
+    let l2 = merge(mid + 1, hight);
+    return mergeTwoLists(l1, l2);
+  }
+  return merge(0, n - 1);
+};
 
 /* 
 看到一个用js reduce sort reduceRight API解本道题的方法😂
