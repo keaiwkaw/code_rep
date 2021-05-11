@@ -22,3 +22,31 @@ var insertionSortList = function (head) {
   }
   return dummyHead.next;
 };
+
+/* 
+自己再写一遍
+*/
+var insertionSortList = function (head) {
+  if (!head) {
+    return head;
+  }
+  let dummyHead = new ListNode();
+  dummyHead.next = head;
+  let last = head;
+  let cur = head.next;
+  while (cur) {
+    if (last.val <= cur.val) {
+      last = last.next;
+    } else {
+      let pre = dummyHead;
+      while (pre.next.val <= cur.val) {
+        pre = pre.next;
+      }
+      last.next = cur.next;
+      cur.next = pre.next;
+      pre.next = cur;
+    }
+    cur = last.next;
+  }
+  return dummyHead.next;
+};
